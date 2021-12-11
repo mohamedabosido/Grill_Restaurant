@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    font-family: inherit;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'poppins';
+}
+.pd-y{
+    padding: 80px 0;
+} 
+.font{
+    font-family: 'Grand Hotel';
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-header .section-tittle{
+    font-size: 55px;
+    margin-bottom: 15px;
+    color: #2F2F2F;
+    font-weight: 500;
+}
+.section-dec{
+    line-height: 32px;
+    font-size: 18px;
+    color: #2F2F2F;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+}
+
+.btn{
+    width: 200px;
+    background-color: #FEC200;
+    color: #2F2F2F;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.btn:hover{
+    background-color: #2F2F2F;
+    color: #FEC200;
+}
+/*Header Section*/
+.header {
+    
+    width: 100%;
+    z-index: 10;
+    height: 80px;
+}
+
+.header-content{
+    overflow: hidden;
+}
+
+
+
+.header .logo {
+    width: 30%;
+    float: left;
+}
+.header .logo img {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.header .nav {
+    width: 70%;
+    float: right;
+    text-align: center;
+}
+
+.header .nav li {
+    display: inline-block;
+    text-align: center;
+    
+}
+.header .nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 30px 15px;
+    display: block;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.header .nav li i{
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.header .nav li a:hover , .header .nav li i:hover{
+    color: #FEC200;
+}
+
+
+/*Home Section*/
+
+.home {
+    height: 100vh;
+    background-image: url(../image/bg111.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.home-content{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+.home-content .title{
+    color: #FEC200;
+    font-weight: 500;
+    font-size: 100px;
+}
+.home-content p{
+    color: white;
+    width: 90%;
+}
+
+/* Best Seller Section */
+.bestseller .items{
+    width: 100%;
+    text-align: center;
+}
+.bestseller .item{
+    display: inline-block;
+    width: 30%;
+    padding: 40px 0;
+}
+.bestseller .item h5{
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bestseller .item p{
+    width: 80%;
+    line-height: 26px;
+    color: #2F2F2F;
+    font-size: 12px;
+    font-weight: 400;
+    margin: auto;
+}
+.bestseller .item.mg{
+    margin: 0 3%;
+} 
+.bestseller .item img{
+    width: 150px;
+}
+
+/* Taste Section */
+.taste {
+    height: 80vh;
+    background-image: url(../image/bg2.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.taste .taste-content{
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+.taste img{
+    width: 350px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.taste-content .title{
+    color: #FEC200;
+    font-weight: 500;
+    font-size: 100px;
+}
+.taste-content p{
+    color: white;
+    width: 90%;
+}
+
+/* statistics section */
+.statistics{
+    background-color: #2F2F2F;
+    background-image: url(../image/Design.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.statistics .section-header .section-tittle{
+    color: #FEC200;  
+}
+.statistics .section-header .section-dec{
+    color: white;
+}
+.statistics .items{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.statistics .item{
+    display: inline-block;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    padding: 40px 0;
+    border: 3px solid white;
+}
+.statistics .item.mg{
+    margin: 0 3%;
+} 
+.statistics .item .num{
+    color: #FEC200;
+    font-weight: 600;
+    font-size: 40px;
+}
+.statistics .item .word{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/* Chicken Grill Section */
+.chickengrill{
+    height: 60vh;
+    background-image: url(../image/bg333.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.chickengrill .chickengrill-content{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.chickengrill img{
+    width: 350px;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+.chickengrill-content .title{
+    color: #FEC200;
+    font-weight: 500;
+    font-size: 100px;
+}
+.chickengrill-content p{
+    color: white;
+    width: 90%;
+}
+
+/* Senora Field */
+.senora{
+    height: 60vh;
+    background-image: url(../image/bg4.png);
+    background-size:cover ;
+    position: relative;
+    background-attachment: fixed;
+}
+.senora .section-header{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.senora .section-header .section-tittle{
+    margin-top: 10px;
+}
+/* Subscribe Section */
+.subscribe{
+    background-color: white;
+    background-image: url(../image/Design.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+.subscribe-content{
+    text-align: center;
+    margin-top: 50px;
+}
+.subscribe-content input{
+    border: 1px solid #eee;
+    font-family: inherit;
+    width: 600px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+.footer{
+    height: 45vh;
+    background-color: #2F2F2F;
+}
+
+.footer .items{
+    width: 100%;
+    position: relative;
+}
+.footer .item{
+    display: inline-block;
+    width: 10%;
+    padding: 40px 0;
+    color: white;
+}
+.footer .item h4{
+    margin-bottom: 10px;
+}
+
+.footer .item p , .footer .item ul li {
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 14px;
+}
+.footer .item.item1 {
+    width: 40%;
+}
+.footer .item.mg{
+    margin: 0 7%;
+} 
+.list ul{
+    margin-top: 40px;
+    margin-right: 80px;
+}
+.list ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.list ul li a img{
+    width: 30px;
+}
+
+.item ul li{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.item ul li:hover{
+    color: #FEC200;
+}
+
